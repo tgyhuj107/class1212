@@ -140,6 +140,16 @@ public class Main {
                 }
             }
         }
+        for (int i=0;i<data1.length;i++){
+            if (data1[i]!=0){
+                System.out.println(((char) (int)('a')+i)+":"+data1[i]);
+            }
+        }
+        for (int i=0;i<data2.length;i++){
+            if (data2[i]!=0){
+                System.out.println(((char) (int)('a')+i)+":"+data1[i]);
+            }
+        }
 
 
 
